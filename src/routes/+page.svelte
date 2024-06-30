@@ -1,7 +1,7 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	import { goto } from '$app/navigation';
-	
+
 	export let data;
 
 	function toYear(params) {
@@ -12,7 +12,7 @@
 
 <div class="flex justify-center">
 	<div class="grid w-4/5">
-		<h3>What was tuaght is now disproven. A community curated site.</h3>
+		<h3>What was taught is now disproven. A community curated site.</h3>
 		<label class="form-control w-full max-w-xs mt-4">
 			<div class="label">
 				<span class="label-text">Select a year...</span>
