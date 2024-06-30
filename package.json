@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
-		"deploy": "npm run build && npx gh-pages -d build -t true"
+		"postinstall": "prisma generate"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
