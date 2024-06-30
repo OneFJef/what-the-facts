@@ -1,13 +1,12 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	import { goto } from '$app/navigation';
-	import { base } from "$app/paths";
-
+	
 	export let data;
 
 	function toYear(params) {
 		const destination = params.target.value;
-		goto(`${base}/year/${destination}`);
+		goto(`/year/${destination}`);
 	}
 </script>
 
