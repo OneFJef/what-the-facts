@@ -18,6 +18,7 @@
 				<span class="label-text">Select a year...</span>
 			</div>
 			<select on:change={toYear} class="select select-bordered w-full max-w-28">
+				<option disabled selected>...</option>
 				{#each data.uniqueDates as year}
 					<option>
 						{year.year}
