@@ -12,7 +12,7 @@
 
 <div class="flex justify-center">
 	<div class="grid w-4/5">
-		<h3>What was taught is now disproven. A community curated site.</h3>
+		<h3>A community driven site to catalog what year something was taught that has been proven to be now false.</h3>
 		<label class="form-control w-full max-w-xs mt-4">
 			<div class="label">
 				<span class="label-text">Select a year...</span>

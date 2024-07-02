@@ -1,9 +1,11 @@
 <script>
 	import '../app.css';
-	import Nav from '../components/Nav.svelte';
+	import Header from '../components/Header.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
-<div class="max-w-5xl mx-auto">
-	<Nav />
+<Header />
+<div class="py-14 mb-4">
 	<slot />
 </div>
+<Footer />
